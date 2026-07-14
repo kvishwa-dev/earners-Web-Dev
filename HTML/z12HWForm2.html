@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Details</title>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+    <label for="username">Username: </label>
+    <input type="text" id="username">
+
+    <br><br>
+    <label for="password">Password: </label>
+    <input type="password" id="password">
+
+    <br><br>
+    <label for="city">City of Employment: </label>
+    <input type="text" id="city">
+
+    <br><br>
+    <label for="server">Web Server: </label>
+    <select name="server" id="server">
+        <option value="">--Choose a server--</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+    </select>
+
+    <br><br>
+    <label for="role">Please specify your role: </label>
+    <div>
+    <input type="radio" id="admin" name="role">
+    <label for="admin">Admin</label>
+    <input type="radio" id="engineer" name="role">
+    <label for="engineer">Engineer</label>
+    <input type="radio" id="manager" name="role">
+    <label for="manager">Manager</label>
+    <input type="radio" id="guest" name="role">
+    <label for="guest">Guest</label>
+    </div>
+
+    <br><br>
+    <label for="signon">Single Sign-on to the following: </label>
+    <input type="checkbox" id="mail">
+    <label for="mail">Mail</label>
+    <input type="checkbox" id="payroll">
+    <label for="payroll">Payroll</label>
+    <input type="checkbox" id="selfservice">
+    <label for="selfservice">Self-service</label>
+
+    <br><br>
+    <button type="submit">Login</button>
+    <button type="reset">Reset</button>
+    
+</body>
+</html>

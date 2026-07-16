@@ -1,0 +1,66 @@
+/* Descendant Combinator */
+
+/* div p {
+    color: blue;
+} */
+
+/* Child Combinator */
+
+/* div > p {
+    color: blue;
+} */
+
+/* Adjacent Sibling Combinator */
+
+/* h1 + p {
+    color: blue;
+} */
+
+/* General Sibling Combinator */
+
+h1 ~ p {
+    color: brown;
+}
+
+/* Pseudo Class */
+
+h2:hover {
+    background-color: yellow;
+    color: rgb(98, 11, 237);
+}
+
+li:hover {
+    color: red;
+}
+
+li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: aqua;
+}
+
+/* formula = an+b */
+li:nth-child(2n) {
+    color: violet;
+}
+
+/* Pseudo Element */
+
+h1::before {
+    content: "Hello Student, ";
+}
+
+h1::after {
+    content: " CSS";
+}
+
+h1::first-letter {
+    color: yellow;
+}
+
+::selection {
+    color: black;
+    background-color: red;
+}

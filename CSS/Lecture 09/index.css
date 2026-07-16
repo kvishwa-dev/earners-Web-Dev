@@ -1,0 +1,43 @@
+/* Universal Selector */
+/* * {
+    color: rgb(22, 171, 59);
+} */
+
+/* Element Selector */
+span, li {
+    color: blueviolet;
+}
+
+h2 {
+    color: aqua;
+} */
+
+/* Class Selector */
+.hello {
+    color: brown;
+}
+
+.hello2 {
+    background-color: red;
+}
+
+/* ID Selector */
+#vishwa {
+    color: rgb(61, 28, 191);
+    background-color: yellow;
+}
+
+/* Specificity */
+h6 {
+    color: rgb(9, 153, 224);
+}
+
+.specific {
+    color: rgb(240, 143, 16);
+}
+
+#specificity {
+    color: rgb(3, 255, 3);
+}
+
+/* Inline CSS > ID selector > Class Selector > Element selector > Universal Selector*/

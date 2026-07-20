@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#shree {
+    font-family: "Geist Pixel", sans-serif;
+}
+
+
+
+#kumar {
+    font-size: 50px;
+
+    text-shadow: -1px -1px 5px red;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+
+    text-indent: 39px;
+}
+
+#din {
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 2;
+}
+
+#para {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+
+#bisl {
+    text-align: center;
+    border: 1px solid red;
+}
+#nilesh {
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    /* display: block; */
+    /* text-decoration: underline dashed; */
+    /* text-decoration: underline wavy; */
+
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+ 
+}
+
+#color {
+    /* color: red; */
+    /* color: #00ff44; */
+    /* color: rgb(255, 0, 0); */
+    /* color: rgba(255, 150, 60, 1); */
+    color: hsl(250, 90%, 50%);
+    color: hsla(250, 90%, 50%, 1);
+    background-color: aliceblue;
+}

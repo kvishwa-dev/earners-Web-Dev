@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 1px solid blue;
+  width: 800px;
+  height: 40px;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid red;
+  width: 120px;
+  height: 40px;
+  /* margin-top: 10px; */
+  text-align: center;
+
+  /* position: relative; */
+  background-color: rgb(63, 217, 16);
+  /* left: 40px; */
+  /* top: 150px; */
+}
+
+#box3 {
+  /* position: absolute; */
+  display: inline-block;
+  height: 80px;
+
+  position: fixed;
+  /* Its parent is viewport */
+
+  top: 20px;
+  right: 20px;
+  padding: 8px;
+}
+
+#box2 {
+  position: sticky;
+
+  top: 20px;
+}
+
+.boxes {
+  border: 1px solid brown;
+  height: 300px;
+}
+
+#box4 {
+  position: relative;
+  background-color: aqua;
+  left: 50px;
+  z-index: -1;
+}
+
+#box5 {
+    position: relative;
+    z-index: -2;
+}
+
+/* z-index works on relative, absolute, fixed and sticky positions
+and does not work on static position */
+
+#wrapper {
+  padding: 100px;
+  border: 10px solid rgb(30, 21, 209);
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+#cart {
+  border: 1px solid black;
+  position: relative;
+}
+
+#cartval {
+  border: 1px solid black;
+
+  /* display: none;  */
+  /* visibility: hidden; */
+
+  background-color: red;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 5px;
+
+  position: absolute;
+  left: 200px;
+  top: 10px;
+}
+
+/* display none is kind of deleting
+visibility hidden just hides it but the element is still present */

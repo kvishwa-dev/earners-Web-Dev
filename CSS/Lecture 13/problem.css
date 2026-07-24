@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: auto;
+    width: 50vw;
+    height: 100vh;
+    border: 1px solid black;
+
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border: 1px solid black;
+
+    display: inline-block;
+}
